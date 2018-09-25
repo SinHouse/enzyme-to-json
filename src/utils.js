@@ -1,8 +1,8 @@
 import filter from 'lodash/filter';
 import isNil from 'lodash/isNil';
-import ShallowWrapper from 'enzyme/build/ShallowWrapper';
-import ReactWrapper from 'enzyme/build/ReactWrapper';
-import {typeName} from 'enzyme/build/Debug';
+import ShallowWrapper from '@tbm/enzyme/build/ShallowWrapper';
+import ReactWrapper from '@tbm/enzyme/build/ReactWrapper';
+import {typeName} from '@tbm/enzyme/build/Debug';
 
 const SHALLOW_WRAPPER_NAME = ShallowWrapper.name;
 const REACT_WRAPPER_NAME = ReactWrapper.name;

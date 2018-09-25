@@ -1,7 +1,7 @@
 import omitBy from 'lodash/omitBy';
 import isNil from 'lodash/isNil';
 
-import {childrenOfNode, propsOfNode} from 'enzyme/build/RSTTraversal';
+import {childrenOfNode, propsOfNode} from '@tbm/enzyme/build/RSTTraversal';
 
 import {compact, applyMap, extractTypeName} from './utils';
 

@@ -1,7 +1,7 @@
 {
-  "version": "3.3.4",
-  "name": "enzyme-to-json",
-  "description": "convert enzyme wrapper to a format compatible with Jest snapshot",
+  "version": "3.3.4-custom",
+  "name": "@tbm/enzyme-to-json",
+  "description": "TbM customized convert enzyme wrapper to a format compatible with Jest snapshot",
   "main": "index.js",
   "scripts": {
     "build": "babel src -d ./",
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adriantoine/enzyme-to-json.git"
+    "url": "https://github.com/SinHouse/enzyme-to-json"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -43,7 +43,7 @@
     "lodash": "^4.17.4"
   },
   "peerDependencies": {
-    "enzyme": "^3.0.0"
+    "@tbm/enzyme": "^3.6.0-custom"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -54,8 +54,8 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "codecov": "^2.3.0",
-    "enzyme": "^3.1.0",
-    "enzyme-adapter-react-16": "^1.0.1",
+    "@tbm/enzyme": "^3.6.0-custom",
+    "@tbm/enzyme-adapter-react-16": "^1.5.0-custom1",
     "eslint": "^4.8.0",
     "eslint-config-prettier": "^2.6.0",
     "eslint-config-standard": "^10.2.1",
